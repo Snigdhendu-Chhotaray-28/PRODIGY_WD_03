@@ -1,0 +1,95 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+/* ====================== Body ====================== */
+body{
+    overflow: hidden;
+    width: 99vw;
+    margin-top: 35px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+    margin-bottom: 50px;
+}
+.tic_tac_toe{
+    height: 550px;
+    width: 110%;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 15px;
+    border:  1px solid rgb(122, 122, 122);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.game{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.row1,
+.row2,
+.row3{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.box{
+    background-color: rgb(237, 237, 237);
+    border-radius: 10px;
+    border: 0;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+}
+.result{
+    color: white;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.mood{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.vs_player,
+.vs_ai{
+    padding: 1px 5px;
+}
+.result{
+    margin-top: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 0px 2px;
+}
+.reset_div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.reset{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+
