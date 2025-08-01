@@ -19,7 +19,7 @@ This project is a simple and interactive Tic-Tac-Toe game developed as part of t
 
 - ## Credits
 
-- For color Palettes - https://coolors.co/
+- For color Palettes - https://cssgradient.io/
 
 ## Preview
 
